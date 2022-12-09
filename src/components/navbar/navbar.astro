@@ -2,6 +2,8 @@
 import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
+import { Image } from "@astrojs/image/components";
+import Wordmark from "assets/wordmark.png";
 
 const menuitems = [
   {
@@ -33,11 +35,11 @@ const menuitems = [
     x-data="{ open: false }"
     x-init="$watch('open', value => console.log(value))">
     <div class="flex w-full lg:w-auto items-center justify-between">
-    <img
-      src="/src/assets/wordmark.png"
+    <Image
+      src={Wordmark}
       alt="Distilled Logo"
-      width="180"
-      height="43"
+      width="250"
+      height="57.5"
     />
       <div class="block lg:hidden">
         <button @click="open = !open" class="text-gray-800">
