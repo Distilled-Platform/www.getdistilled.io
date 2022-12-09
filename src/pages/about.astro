@@ -2,7 +2,6 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import { Image } from "@astrojs/image/components";
 
 const TeamImg1 =
   "https://drive.google.com/uc?export=download&id=1ld2sunf64RoQY3XOqJ_nVdtcHMeuS3L_";
@@ -55,7 +54,7 @@ const team = [
         team.map((item) => (
           <div class="group">
             <div class="w-full aspect-square">
-              <Image
+              <img
                 {...item.avatar}
                 format="avif"
                 width="560px"
