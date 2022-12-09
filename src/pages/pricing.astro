@@ -3,6 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pricing from "@components/pricing.astro";
+import { SEO } from "astro-seo";
 
 const pricing = [
   {
@@ -64,6 +65,9 @@ const pricing = [
 ];
 ---
 
+ <SEO
+title="Pricing"
+description="Take advantage of a fair and transparent pricing model." />
 <Layout title="Pricing">
   <Container>
     <Sectionhead>

@@ -5,9 +5,13 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Button from "@components/ui/button.astro";
 import Contactform from "@components/contactform.astro";
+import { SEO } from "astro-seo";
 ---
 
 <Layout title="Contact">
+<SEO
+  title="Contact Us"
+  description="Contact the Distilled team" />
   <Container>
     <Sectionhead>
       <Fragment slot="title">Contact</Fragment>

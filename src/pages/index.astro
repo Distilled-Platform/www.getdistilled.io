@@ -5,7 +5,11 @@ import Features from "@components/features.astro";
 import Footer from "@components/footer.astro";
 import Hero from "@components/hero.astro";
 import Layout from "@layouts/Layout.astro";
+import { SEO } from "astro-seo";
 ---
+<SEO
+    title="Distilled Homepage"
+    description="Turn your complex community data into actionable strategy." />
     <Layout title="">
       <Container>
         <Hero />

@@ -5,6 +5,7 @@ import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { getFormattedDate } from "@utils/all";
 import { log } from "astro/dist/core/logger/core";
+import { SEO } from "astro-seo";
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
@@ -16,6 +17,9 @@ console.log(posts[0].frontmatter.image);
 ---
 
 <Layout title="Blog">
+<SEO
+  title=" The Distilling Lab Blog"
+  description="Curated content focused around community strategy and implmenetation" />
   <Container>
     <Sectionhead>
       <Fragment slot="title">Our Blog</Fragment>

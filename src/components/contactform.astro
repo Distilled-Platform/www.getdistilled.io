@@ -5,13 +5,11 @@ import Button from "./ui/button.astro";
 <!-- To make this contact form work, create your free access key from https://web3forms.com/
      Then you will get all form submissions in your email inbox. -->
 <form
-  action="https://api.slapform.com/zNYKdsdke"
+  action="https://usebasin.com/f/cb51f13092f1"
   method="POST"
   id="form"
   class="needs-validation"
   novalidate>
-  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-  <!-- Create your free access key from https://web3forms.com/ -->
   <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
   <div class="mb-5">
     <input
@@ -75,4 +73,17 @@ import Button from "./ui/button.astro";
     border-color: #dc3545;
   }
 </style>
+
+<script type="text/javascript">
+  function configureAhoy() {
+    ahoy.configure({
+      visitsUrl: "https://usebasin.com/ahoy/visits",
+      eventsUrl: "https://usebasin.com/ahoy/events",
+      page: "cb51f13092f1" /* Use your form id here */
+    });
+    ahoy.trackView();
+    ahoy.trackSubmits();
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.9/dist/ahoy.min.js" async defer onload="configureAhoy()">
 
