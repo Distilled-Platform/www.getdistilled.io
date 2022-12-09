@@ -3,10 +3,10 @@ title: "Negative OKRs for Community Building: Why They May Be Needed"
 excerpt: " In the context of community building, negative OKRs can help to prevent harmful behaviors and foster a more positive and inclusive environment."
 publishDate: "2022-12-08T16:39:36.050Z"
 image: "https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-category: "Courses"
-author: "Marcell Ziemann"
+category: "Strategy"
+author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"
-tags: [webdev, tailwindcss, frontend]
+tags: [okrs, strategy, community]
 ---
 
 OKRs, or objectives and key results, are a popular goal-setting method used by many companies and organizations to drive progress and achieve success. While they are often used to set positive goals and targets, such as increasing revenue or improving customer satisfaction, there is also value in setting negative OKRs. In the context of community building, negative OKRs can help to prevent harmful behaviors and foster a more positive and inclusive environment.
