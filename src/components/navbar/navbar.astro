@@ -35,12 +35,12 @@ const menuitems = [
     x-data="{ open: false }"
     x-init="$watch('open', value => console.log(value))">
     <div class="flex w-full lg:w-auto items-center justify-between">
-    <img
-      src="/src/assets/wordmark.png"
+    <Image
+      src={Wordmark}
       alt="Distilled Logo"
-      width="250"
       loading="eager"
-      height="57.5"
+      width="206"
+      format="png"
     />
       <div class="block lg:hidden">
         <button @click="open = !open" class="text-gray-800">

@@ -19,9 +19,7 @@ console.log(posts[0].frontmatter.image);
   <Container>
     <Sectionhead>
       <Fragment slot="title">Our Blog</Fragment>
-      <Fragment slot="desc"
-        >We write about community building in practice and theory.</Fragment
-      >
+      <Fragment slot="desc">We write about community building in practice and theory.</Fragment>
     </Sectionhead>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
@@ -35,7 +33,6 @@ console.log(posts[0].frontmatter.image);
                     widths={[200, 400, 800]}
                     sizes="(max-width: 800px) 100vw, 800px"
                     aspectRatio="16:9"
-                    format="png"
                     alt="Thumbnail"
                     loading={index === 0 ? "eager" : "lazy"}
                     class="w-full rounded-md aspect-video"
@@ -48,7 +45,6 @@ console.log(posts[0].frontmatter.image);
                     <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
                       {post.frontmatter.title}
                     </h2>
-
                     <div class="flex gap-2 mt-3">
                       <span class="text-gray-400">
                         {post.frontmatter.author}

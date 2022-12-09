@@ -2,13 +2,12 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import { Image } from "@astrojs/image/components";
 
 const TeamImg1 =
   "https://drive.google.com/uc?export=download&id=1ld2sunf64RoQY3XOqJ_nVdtcHMeuS3L_";
 const TeamImg2 =
   "https://drive.google.com/uc?export=download&id=1ygHkMMYHQLXBDPXEljw5UA2cKlBS3iIA";
-const TeamImg3 =
-  "";
 
 const team = [
   {
@@ -54,10 +53,9 @@ const team = [
         team.map((item) => (
           <div class="group">
             <div class="w-full aspect-square">
-              <img
+              <Image
                 {...item.avatar}
                 format="avif"
-                width="560px"
                 alt="Team"
                 class="w-full h-full object-cover rounded transition  group-hover:-translate-y-1 group-hover:shadow-xl"
               />
