@@ -1,5 +1,4 @@
 ---
-import { Picture } from "@astrojs/image/components";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
@@ -30,7 +29,7 @@ console.log(posts[0].frontmatter.image);
             <li>
               <a href={post.url}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
-                  <Picture
+                  <img
                     src={post.frontmatter.image}
                     widths={[200, 400, 800]}
                     sizes="(max-width: 800px) 100vw, 800px"
