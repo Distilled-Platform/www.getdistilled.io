@@ -29,11 +29,12 @@ console.log(posts[0].frontmatter.image);
             <li>
               <a href={post.url}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
-                  <img
+                  <Image
                     src={post.frontmatter.image}
                     widths={[200, 400, 800]}
                     sizes="(max-width: 800px) 100vw, 800px"
                     aspectRatio="16:9"
+                    format="png"
                     alt="Thumbnail"
                     loading={index === 0 ? "eager" : "lazy"}
                     class="w-full rounded-md aspect-video"
