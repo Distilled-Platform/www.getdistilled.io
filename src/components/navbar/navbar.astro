@@ -2,8 +2,6 @@
 import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
-import { Image } from "@astrojs/image/components";
-import Wordmark from "/src/assets/wordmark.png";
 
 const menuitems = [
   {
@@ -37,8 +35,6 @@ const menuitems = [
     <div class="flex w-full lg:w-auto items-center justify-between">
     <img
       src="/src/assets/wordmark.svg"
-      width="204"
-      height="56"
     />
       <div class="block lg:hidden">
         <button @click="open = !open" class="text-gray-800">
