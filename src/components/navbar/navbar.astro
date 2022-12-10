@@ -3,7 +3,7 @@ import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Image } from "@astrojs/image/components";
-import Wordmark from "/src/assets/wordmark.png";
+import Wordmark from "/src/assets/wordmark.svg";
 
 const menuitems = [
   {
@@ -41,7 +41,6 @@ const menuitems = [
       loading="eager"
       width="210"
       height="56"
-      format="avif"
     />
       <div class="block lg:hidden">
         <button @click="open = !open" class="text-gray-800">
