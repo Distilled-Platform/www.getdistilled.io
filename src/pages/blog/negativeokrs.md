@@ -27,15 +27,15 @@ Additionally, negative OKRs can help to create accountability within the communi
 
 There are several steps that organizations can take to implement negative OKRs in their community building efforts:
 
-    Identify the negative behaviors that need to be prevented. This might include bullying, harassment, spreading misinformation, or engaging in divisive discussions.
+1. Identify the negative behaviors that need to be prevented. This might include bullying, harassment, spreading misinformation, or engaging in divisive discussions.
 
-    Set clear and specific goals for avoiding these behaviors. For example, "reducing instances of bullying by 50% within the next quarter."
+2. Set clear and specific goals for avoiding these behaviors. For example, "reducing instances of bullying by 50% within the next quarter."
 
-    Measure progress towards these goals using specific and quantifiable metrics. For example, tracking the number of instances of bullying reported by community members.
+3. Measure progress towards these goals using specific and quantifiable metrics. For example, tracking the number of instances of bullying reported by community members.
 
-    Provide support and resources to help individuals avoid engaging in negative behaviors. This might include training on appropriate behavior, providing resources for addressing conflicts, or implementing policies to prevent harmful actions.
+4. Provide support and resources to help individuals avoid engaging in negative behaviors. This might include training on appropriate behavior, providing resources for addressing conflicts, or implementing policies to prevent harmful actions.
 
-    Create accountability by regularly reviewing progress towards the negative OKRs and taking action to address any issues or challenges.
+5. Create accountability by regularly reviewing progress towards the negative OKRs and taking action to address any issues or challenges.
 
 By implementing these steps, organizations can effectively use negative OKRs to prevent harmful behaviors and create a more positive and inclusive environment within their communities.
 
