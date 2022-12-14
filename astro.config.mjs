@@ -23,6 +23,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: "https://www.getdistilled.io",
   integrations: [tailwind(), alpinejs(), mdx(), sitemap(), image()]
 });
