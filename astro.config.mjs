@@ -22,7 +22,10 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 
 // https://astro.build/config
+import partytown from "@astrojs/partytown";
+
+// https://astro.build/config
 export default defineConfig({
   site: "https://www.getdistilled.io",
-  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), image()]
+  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), image(), partytown()]
 });
