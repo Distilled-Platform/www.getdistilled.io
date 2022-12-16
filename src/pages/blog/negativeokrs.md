@@ -9,6 +9,8 @@ layout: "@layouts/BlogLayout.astro"
 tags: [okrs, strategy, community]
 ---
 
+![](https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
 OKRs, or objectives and key results, are a popular goal-setting method used by many companies and organizations to drive progress and achieve success. While they are often used to set positive goals and targets, such as increasing revenue or improving customer satisfaction, there is also value in setting negative OKRs. In the context of community building, negative OKRs can help to prevent harmful behaviors and foster a more positive and inclusive environment.
 
 # What are negative OKRs?

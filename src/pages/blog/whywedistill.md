@@ -9,6 +9,8 @@ layout: "@layouts/BlogLayout.astro"
 tags: [strategy, community, okrs]
 ---
 
+![brewery](https://images.pexels.com/photos/159291/beer-machine-alcohol-brewery-159291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
 ## Why Community Metrics Need to Go Through a Distillation Process
 
 In today's digital age, it's easier than ever to gather data on communities and their activities. Whether it's through social media, forums, or other online platforms, there is no shortage of data available to analyze and understand the needs and behaviors of community members. However, with so much data available, it can be overwhelming and time-consuming to make sense of it all. That's where the distillation process comes in.
