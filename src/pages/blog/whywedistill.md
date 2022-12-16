@@ -31,14 +31,14 @@ For example, an organization may be tracking metrics such as engagement, retenti
 
 One way to approach the distillation process is through the use of OKRs (Objectives and Key Results). OKRs are a goal-setting framework that helps organizations set clear and measurable objectives and track progress towards achieving them. They are often used to align team goals with broader organizational objectives and to ensure that everyone is working towards a common set of goals.
 
-In the context of community metrics, OKRs can be used to set clear goals for the community and to track progress towards achieving them. For example, an organization may set an objective to increase retention in the community, with a key result of increasing the percentage of active users by 10%. By setting clear and measurable goals, the organization can better understand what it takes to achieve success and can track progress towards achieving those goals over time.
-
 ### Setting goals
+
+In the context of community metrics, OKRs can be used to set clear goals for the community and to track progress towards achieving them. For example, an organization may set an objective to increase retention in the community, with a key result of increasing the percentage of active users by 10%. By setting clear and measurable goals, the organization can better understand what it takes to achieve success and can track progress towards achieving those goals over time.
 
 Another important aspect of the OKR framework is the ability to set both long-term and short-term goals. This allows organizations to focus on both strategic and tactical objectives, ensuring that they are making progress on both fronts. For example, an organization may set a long-term goal of increasing the overall size of the community, with a short-term goal of increasing the number of new users joining the community each month.
 
-By setting both long-term and short-term goals, organizations can ensure that they are making progress towards achieving their overall objectives while also addressing more immediate needs and challenges.
-
 ## Conclusion
+
+By setting both long-term and short-term goals, organizations can ensure that they are making progress towards achieving their overall objectives while also addressing more immediate needs and challenges.
 
 Community metrics can provide valuable insights into the needs and behaviors of community members, but without a clear way to distill and interpret the data, it can be challenging to make sense of it all. By leveraging OKRs to make sense of community metrics, you can help your team better understand the data your community is outputting. 
