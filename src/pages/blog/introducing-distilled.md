@@ -1,6 +1,6 @@
 ---
-title: "Introducting Distilled: A strategy platform for community builders"
-excerpt: "We are excited to announce the launch of Distilled, a new community strategy platform that we hope will assist developers with creating actionable strategy from the massive amounts of analytics they generate on a day to day basis."
+title: "Introducting Distilled: An OKR inspired strategy platform for DevRel and community teams"
+excerpt: "We are excited to announce the launch of Distilled, a new strategy platform that we hope will assist developer advocates and community managers with creating actionable strategy from the massive amounts of analytics they generate on a day to day basis."
 publishDate: "2022-12-08T10:00:36.050Z"
 image: "https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 category: "Announcements"
@@ -8,6 +8,8 @@ author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"
 tags: [announcement, distilled, community]
 ---
+
+![](https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
 We are excited to announce the launch of Distilled, a new community strategy platform that we hope will assist developers with creating actionable strategy from the massive amounts of analytics they generate on a day to day basis. 
 
