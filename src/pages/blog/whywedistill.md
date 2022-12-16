@@ -13,15 +13,11 @@ tags: [strategy, community, okrs]
 
 In today's digital age, it's easier than ever to gather data on communities and their activities. Whether it's through social media, forums, or other online platforms, there is no shortage of data available to analyze and understand the needs and behaviors of community members. However, with so much data available, it can be overwhelming and time-consuming to make sense of it all. That's where the distillation process comes in.
 
-### Filtering the noise
-
 Distillation is the process of taking raw data and refining it into more useful and actionable insights. When it comes to community metrics, distillation can help organizations better understand their communities and make informed decisions about how to engage and support them. What does this look like in practice though? Let's learn how leveraging OKRs (Objectives and Key Results) and goal setting can be used to make the most of the data generated from community analytics tools.
 
 ## The Importance of OKRs and goal setting
 
 When it comes to community metrics, the sheer volume of data can be overwhelming. There are so many different metrics to track and so many different tools available to gather and analyze the data. Without a clear way to distill and interpret the data, it can be challenging to understand what it all means and how it can be used to inform decision making.
-
-### Focusing on the right data
 
 Distillation helps to streamline the process of analyzing community metrics by focusing on the most important and relevant data points. It allows organizations to identify trends and patterns in the data and to understand how different metrics relate to one another. This helps to provide a more holistic view of the community and to identify areas where the organization can make the most impact.
 
@@ -30,8 +26,6 @@ For example, an organization may be tracking metrics such as engagement, retenti
 ## The Distillation Process
 
 One way to approach the distillation process is through the use of OKRs (Objectives and Key Results). OKRs are a goal-setting framework that helps organizations set clear and measurable objectives and track progress towards achieving them. They are often used to align team goals with broader organizational objectives and to ensure that everyone is working towards a common set of goals.
-
-### Setting goals
 
 In the context of community metrics, OKRs can be used to set clear goals for the community and to track progress towards achieving them. For example, an organization may set an objective to increase retention in the community, with a key result of increasing the percentage of active users by 10%. By setting clear and measurable goals, the organization can better understand what it takes to achieve success and can track progress towards achieving those goals over time.
 
