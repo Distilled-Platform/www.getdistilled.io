@@ -21,6 +21,8 @@ Distillation is the process of taking raw data and refining it into more useful 
 
 When it comes to community metrics, the sheer volume of data can be overwhelming. There are so many different metrics to track and so many different tools available to gather and analyze the data. Without a clear way to distill and interpret the data, it can be challenging to understand what it all means and how it can be used to inform decision making.
 
+### Focusing on the right data
+
 Distillation helps to streamline the process of analyzing community metrics by focusing on the most important and relevant data points. It allows organizations to identify trends and patterns in the data and to understand how different metrics relate to one another. This helps to provide a more holistic view of the community and to identify areas where the organization can make the most impact.
 
 For example, an organization may be tracking metrics such as engagement, retention, and growth. While these metrics are all important in their own right, they may not tell the whole story about the community. By distilling the data and looking at how the metrics relate to one another, the organization can better understand the factors that are driving engagement and retention, and can identify opportunities to support the growth of the community.
@@ -30,6 +32,8 @@ For example, an organization may be tracking metrics such as engagement, retenti
 One way to approach the distillation process is through the use of OKRs (Objectives and Key Results). OKRs are a goal-setting framework that helps organizations set clear and measurable objectives and track progress towards achieving them. They are often used to align team goals with broader organizational objectives and to ensure that everyone is working towards a common set of goals.
 
 In the context of community metrics, OKRs can be used to set clear goals for the community and to track progress towards achieving them. For example, an organization may set an objective to increase retention in the community, with a key result of increasing the percentage of active users by 10%. By setting clear and measurable goals, the organization can better understand what it takes to achieve success and can track progress towards achieving those goals over time.
+
+### Setting goals
 
 Another important aspect of the OKR framework is the ability to set both long-term and short-term goals. This allows organizations to focus on both strategic and tactical objectives, ensuring that they are making progress on both fronts. For example, an organization may set a long-term goal of increasing the overall size of the community, with a short-term goal of increasing the number of new users joining the community each month.
 
