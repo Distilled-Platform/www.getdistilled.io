@@ -25,32 +25,22 @@ Distilled is a platform that helps community managers and leaders set, track, an
 
 Unlike traditional OKR platforms, Distilled is not limited to a specific set of goals or metrics. Instead, it allows community managers to define their own goals and metrics, and to track progress in real-time. This allows communities to set and achieve their own unique goals, rather than being restricted by a one-size-fits-all approach.
 
-# Key Features of Distilled
+# How Distilled Can Benefit Your Team
 
 Distilled has a number of key features that make it an effective tool for managing community strategy. These include:
 
-    - Customizable goals and metrics: With Distilled, community managers can define their own goals and metrics, and track progress in real-time. This allows communities to set and achieve their own unique goals, rather than being restricted by a one-size-fits-all approach.
+* Customizable goals and metrics: With Distilled, team members can define their own goals and metrics, and track progress in real-time. This allows the organization to set and achieve their own unique goals, rather than being restricted by a one-size-fits-all approach.
 
-    - Collaborative planning: Distilled allows multiple team members to collaborate on goal-setting and tracking, making it easy for communities to work together towards a common vision.
+* OKR Templates: Distilled allows teams to leverage premade templates for common goals via a rich integration ecosystem and intitive UI.
 
-    - Automatic updates: Distilled automatically updates key results in real-time, so community managers can see the latest progress on their goals at any time.
+* Automatic updates: Distilled automatically updates key results in real-time, so community managers can see the latest progress on their goals at any time.
 
-    - Detailed reporting: Distilled provides detailed reports on goal progress, so community managers can see exactly where their community is succeeding and where there may be room for improvement.
+* Detailed reporting: Distilled provides detailed reports on goal progress, so community managers can see exactly where their community is succeeding and where there may be room for improvement.
 
-    - Integration with other tools: Distilled integrates with other tools that community managers may be using, such as project management software and communication platforms, making it easy to track progress and stay on top of priorities.
+* Integration with other tools: Distilled integrates with other tools that community managers may be using, such as project management software and communication platforms, making it easy to track progress and stay on top of priorities.
 
-# How Distilled Can Benefit Your Community
-
-Distilled is a powerful tool that can help community managers and leaders achieve their goals and drive success for their communities. Some of the key benefits of using Distilled include:
-
-Improved goal-setting: Distilled makes it easy to set clear, measurable, and achievable goals, which can help communities stay focused and motivated.
-
-Enhanced collaboration: Distilled's collaborative planning features allow multiple team members to work together towards a common vision, fostering a sense of community and collaboration.
-
-Real-time tracking: With Distilled, community managers can see the latest progress on their goals in real-time, allowing them to make timely decisions and course-correct as needed.
-
-Detailed reporting: Distilled provides detailed reports on goal progress, so community managers can see exactly where their community is succeeding and where there may be room for improvement.
+Distilled is a powerful tool that can help community managers and DevRel teams achieve their goals and drive success for their communities. We are constantly adding new integrations and growing our ecosystem of OKR templates so you can more efficiently plan your strategies. 
 
 # Getting Started with Distilled
 
-We are thrilled to be launching Distilled and we believe that it has the potential to make a big difference for communities around the world. If you are interested in joining the beta, hit up [this link](https://www.getdistilled.io/) and apply today. 
+We are thrilled to be launching Distilled and we believe that it has the potential to make a big difference for communities and DevRel teams around the world. If you are interested in seeing a demo when it's available, hit up [this link](https://www.getdistilled.io/) and inquire today. 
