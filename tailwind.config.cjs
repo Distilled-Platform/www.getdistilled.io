@@ -7,6 +7,11 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'brand-pink': '#FE3DE3',
+        'brand-green': '#C7F820',
+        'brand-purple': '#763fcf',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
