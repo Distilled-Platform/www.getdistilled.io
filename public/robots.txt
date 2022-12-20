@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: http://www.getdistilled.io/sitemap-index.xml
+Disallow:

@@ -1,18 +1,35 @@
 ---
-import Container from "@components/container.astro";
-import Cta from "@components/cta.astro";
-import Features from "@components/features.astro";
-import Hero from "@components/hero.astro";
-import Layout from "@layouts/Layout.astro";
-import { SEO } from "astro-seo";
+import { SITE } from '~/config.mjs';
+import { getCanonical, getHomePermalink } from '~/utils/permalinks';
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const meta = {
+	title: SITE.title,
+	description: SITE.description,
+	canonical: getCanonical(getHomePermalink()),
+};
 ---
-<SEO
-    title="Distilled Homepage"
-    description="Turn your complex community data into actionable strategy." />
-    <Layout title="">
-      <Container>
-        <Hero />
-        <Features />
-        <Cta />
-      </Container>
-    </Layout>
+
+<Layout {meta}>
+	<Hero />
+	<Note />
+	<Features />
+	<Steps />
+	<Features2 />
+	<Features3 />
+	<HighlightedPosts />
+	<FAQs />
+	<Stats />
+	<CallToAction />
+</Layout>

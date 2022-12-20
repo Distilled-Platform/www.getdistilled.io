@@ -1,114 +1,257 @@
-# Astroship - Astro Starter Template 🛸
+# 🚀 AstroWind
 
-Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro, TailwindCSS & Alpine.js.
+<img src="lighthouse-score.png" align="right"
+     alt="AstroWind Lighthouse Score" width="100" height="358">
 
-This Free Template is sponsored by [Web3Templates](https://web3templates.com)
+**AstroWind** is a free and open-source template to make your website using **[Astro](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
 
-## Live Demo
+## Features
 
-### [https://astroship.web3templates.com/](https://astroship.web3templates.com/)
+- ✅ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) supporting **Dark mode**.
+- ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
+- ✅ **Fast and SEO friendly blog** with automatic **RSS feed** ([@astrojs/rss](https://docs.astro.build/en/guides/rss/)), [**MDX** support](https://docs.astro.build/en/guides/integrations-guide/mdx/), **Categories & Tags**, **Social Share** buttons, ...
+- ✅ **Image optimization** ([@astrojs/images](https://docs.astro.build/en/guides/integrations-guide/image/)) and **Font optimization**.
+- ✅ Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
+- ✅ **Open Graph tags** for social media sharing.
+- ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
 
-### [Download Astroship Template](https://web3templates.com/templates/astroship-starter-website-template-for-astro)
+<br>
 
-## Deploy on Vercel
+<img src="./screenshot.jpg" alt="AstroWind Theme Screenshot">
 
-Click the below link to deploy this template on Vercel
+[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
+[![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/astrowind#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/astrowind)
+[![Stars](https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
+[![Forks](https://img.shields.io/github/forks/onwidget/astrowind.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsurjithctly%2Fastroship&project-name=astroship&repository-name=astroship&demo-title=Astroship%20-%20Astro%20Starter%20Template&demo-description=Astroship%20is%20a%20starter%20template%20for%20startups%2C%20marketing%20websites%20%26%20landing%20pages.%20Built%20with%20Astro%2C%20TailwindCSS%20%26%20Alpine.js.&demo-url=https%3A%2F%2Fastroship.web3templates.com%2F&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F1884712%2F200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
+<br>
 
-![image](https://user-images.githubusercontent.com/1884712/200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
+<details open>
+<summary>Table of Contents</summary>
 
-## Installation
+- [Demo](#demo)
+- [Getting started](#getting-started)
+  - [Project structure](#project-structure)
+  - [Commands](#commands)
+  - [Configuration](#configuration)
+  - [Deploy](#deploy)
+- [Roadmap](#roadmap)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Related Projects](#related-projects)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
-If you are reading this on github, you can click on the "Use this template" button above to create a new repository from astroship to your account. Then you can do a `git clone` to clone it to your local system.
+</details>
 
-Alternatively, you can clone the project directly from this repo to your local system.
+<br>
 
-### 1. Clone the repo
+## Demo
 
-```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
-# or
-git clone https://github.com/surjithctly/astroship.git .
-```
+📌 [https://astrowind.vercel.app/](https://astrowind.vercel.app/)
 
-The `.` will clone it to the current directory so make sure you are inside your project folder first.
+<br>
 
-### 2. Install Dependencies
+## Getting started
 
-```bash
-npm install
-# or
-yarn install
-# or (recommended)
-pnpm install
-```
+**AstroWind** tries to give you quick access to creating a website using [Astro](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/). It's a free theme focuses on simplicity, good practices and high performance.
 
-### 3. Start development Server
+Very little vanilla javascript is used only to provide basic functionality so that each developer decides which framework (React, Vue, Svelte, Solid JS...) to use and how to approach their goals..
 
-```bash
-npm run dev
-# or
-yarn dev
-# or (recommended)
-pnpm dev
-```
+### Project structure
 
-### Preview & Build
-
-```bash
-npm run preview
-npm run build
-# or
-yarn preview
-yarn build
-# or (recommended)
-pnpm preview
-pnpm build
-```
-
-We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
-
-### Other Commands
-
-```bash
-pnpm astro ...
-pnpm astro add
-pnpm astro --help
-```
-
-## Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Inside AstroWind template, you'll see the following folders and files:
 
 ```
 /
+├── data/
+|   └── blog/
+|       ├── post-slug-1.md
+|       ├── post-slug-2.mdx
+|       └── ...
 ├── public/
-│   └── ...
+│   ├── robots.txt
+│   └── favicon.ico
 ├── src/
+│   ├── assets/
+│   │   ├── images/
+|   |   └── styles/
+|   |       └── base.css
 │   ├── components/
-│   │   └── ...
+│   │   ├── atoms/
+│   │   ├── blog/
+│   │   ├── core/
+|   |   └── widgets/
+|   |       ├── Header.astro
+|   |       ├── Footer.astro
+|   |       └── ...
 │   ├── layouts/
-│   │   └── ...
-│   └── pages/
-│       └── ...
-└── package.json
+│   |   |── BaseLayout.astro
+│   |   └── ...
+│   ├── pages/
+│   |   ├── [...blog]/
+|   |   |   ├── [...page].astro
+|   |   |   └── [slug].astro
+│   |   ├── [...categories]/
+|   |   |   └── [category]/
+|   |   |       └── [...page].astro
+│   |   ├── [...tags]/
+|   |   |   └── [tag]/
+|   |   |       └── [...page].astro
+│   |   ├── index.astro
+|   |   ├── 404.astro
+|   |   └-- rss.xml.js
+│   ├── utils/
+│   └── config.mjs
+├── package.json
+└── ...
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-Any static assets, like images, can be placed in the `public/` directory.
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## TailwindCSS & Alpine.js
+Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-TailwindCSS & Alpine.js are already configured in this repo, so you can start using them without any installation.
+[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main)
 
-## Credits
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Update `config.mjs` and contents. Have fun!
 
-[Hero Illustration](https://www.figma.com/community/file/1108400791662599811) by [Streamline](https://www.streamlinehq.com/)
+<br>
 
-## 👀 Want to learn more?
+### Commands
 
-Feel free to check out [Astro Docs](https://docs.astro.build) or jump into our [Discord Chat](https://web3templates.com/discord).
+All commands are run from the root of the project, from a terminal:
 
-[![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build)
+| Command               | Action                                             |
+| :-------------------- | :------------------------------------------------- |
+| `npm install`         | Installs dependencies                              |
+| `npm run dev`         | Starts local dev server at `localhost:3000`        |
+| `npm run build`       | Build your production site to `./dist/`            |
+| `npm run preview`     | Preview your build locally, before deploying       |
+| `npm run format`      | Format codes with Prettier                         |
+| `npm run lint:eslint` | Run Eslint                                         |
+| `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
+
+<br>
+
+### Configuration
+
+Basic configuration file: `./src/config.mjs`
+
+```javascript
+export const SITE = {
+  name: 'Example',
+
+  origin: 'https://example.com',
+  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
+  trailingSlash: false, // Generate permalinks with or without "/" at the end
+
+  title: 'Example - This is the homepage title of Example',
+  description: 'This is the homepage description of Example',
+
+  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+  googleSiteVerificationId: false, // or some value,
+};
+
+export const BLOG = {
+  disabled: false,
+  postsPerPage: 4,
+
+  blog: {
+    disabled: false,
+    pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
+  },
+
+  post: {
+    disabled: false,
+    pathname: '', // empty for /some-post, value for /pathname/some-post
+  },
+
+  category: {
+    disabled: false,
+    pathname: 'category', // set empty to change from /category/some-category to /some-category
+  },
+
+  tag: {
+    disabled: false,
+    pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
+  },
+};
+```
+
+<br>
+
+### Deploy
+
+#### Deploy to production (manual)
+
+You can create an optimized production build with:
+
+```shell
+npm run build
+```
+
+Now, your website is ready to be deployed. All generated files are located at
+`dist` folder, which you can deploy the folder to any hosting service you
+prefer.
+
+#### Deploy to Netlify
+
+Clone this repository on own GitHub account and deploy to Netlify:
+
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
+
+#### Deploy to Vercel
+
+Clone this repository on own GitHub account and deploy to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
+
+<br>
+
+## Roadmap
+
+### Base
+
+- [ ] Improve blog design (More generic design that adapts to more needs).
+- [ ] Create component or utilities for related posts.
+- [ ] Add more _shortcodes_ or _embed_ functions to posts in Markdown: (eg Video, Tweet...).
+- [ ] Add more Tailwind components useful for most scenarios (Features, Contact, Call to Actions, Content, FAQs...)
+- [ ] Add commonly used example pages (Ex: About, Terms, Profile, Services...).
+- [ ] Create detailed documentation with best practices and redesign tips.
+
+### Advanced
+
+- [ ] Create external library or place with useful Tailwind components.
+- [ ] Create examples of AstroWind in CodeSanbox or a similar platform that can be easily synchronized with new updates. (Redesign, Integration with React or Svelte components, Use of Tailwind plugins, Connection to headless CMS ...).
+
+<br>
+
+## Frequently Asked Questions
+
+- Why?
+-
+-
+
+<br>
+
+## Related projects
+
+- [Qwind](https://qwind.pages.dev/) - A template to make your website using Qwik + Tailwind CSS.
+
+## Contributing
+
+If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
+That would be very useful for all of us and we would be happy to listen and take action.
+
+## Acknowledgements
+
+Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+
+## License
+
+**AstroWind** is licensed under the Unlicense license — see the [LICENSE](https://github.com/onwidget/astrowind/blob/main/LICENSE.md) file for details.

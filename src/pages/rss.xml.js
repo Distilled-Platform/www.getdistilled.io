@@ -1,22 +1,29 @@
 import rss from '@astrojs/rss';
-import sanitizeHtml from 'sanitize-html';
 
-const postImportResult = import.meta.glob('./blog/**/*.md', { eager: true }); 
-const posts = Object.values(postImportResult);
-// console.log(postImportResult)
-export const get = () => rss({
-  // `<title>` field in output xml
-  title: 'The Distillery',
-  // `<description>` field in output xml
-  description: 'A blog about community and DevRel strategy',
-  // base URL for RSS <item> links
-  // SITE will use "site" from your project's astro.config.
-  site: import.meta.env.SITE,
-  items: import.meta.glob('./blog/**/*.md'),
-  items: posts.map((post) => ({
-    link: post.url,
-    title: post.frontmatter.title,
-    pubDate: post.frontmatter.pubDate,
-    content: sanitizeHtml(post.compiledContent()),
-    }))
-});
+import { SITE, BLOG } from '~/config.mjs';
+import { fetchPosts } from '~/utils/posts';
+import { getPermalink } from '~/utils/permalinks';
+
+export const get = async () => {
+	if (BLOG.disabled) {
+		return new Response(null, {
+			status: 404,
+			statusText: 'Not found',
+		});
+	}
+
+	const posts = await fetchPosts();
+
+	return rss({
+		title: `${SITE.name}’s Blog`,
+		description: SITE.description,
+		site: import.meta.env.SITE,
+
+		items: posts.map((post) => ({
+			link: getPermalink(post.slug, 'post'),
+			title: post.title,
+			description: post.description,
+			publishDate: post.publishDate,
+		})),
+	});
+};
