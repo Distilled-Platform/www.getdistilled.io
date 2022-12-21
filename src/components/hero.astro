@@ -4,17 +4,13 @@ import { Image } from "@astrojs/image/components";
 import Button from "@components/ui/button.astro";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
+import Lottie from './Lottie.jsx';
 ---
 
 
 <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
   <div class="md:order-2 hidden md:block">
-    <Image
-      src={heroImage}
-      alt="Scientist in a lab"
-      loading="eager"
-      format="png"
-    />
+    <Lottie client:load/>
   </div>
   <div class="hero">
     <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">

@@ -35,8 +35,11 @@
     "node": ">=16.0.0 <18.0.0"
   },
   "devDependencies": {
+    "@astrojs/react": "^1.2.2",
     "@tailwindcss/typography": "^0.5.8",
     "node-html-parser": "^6.1.4",
-    "postcss-inline-svg": "^5.0.0"
+    "postcss-inline-svg": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

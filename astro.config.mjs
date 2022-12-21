@@ -3,6 +3,8 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 import tailwind from "@astrojs/tailwind";
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 import alpinejs from "@astrojs/alpinejs";
 
@@ -27,5 +29,5 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.getdistilled.io",
-  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), image(), partytown()]
+  integrations: [tailwind(), alpinejs(), react(), mdx(), sitemap(), image(), partytown()]
 });
