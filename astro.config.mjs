@@ -29,5 +29,5 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.getdistilled.io",
-  integrations: [tailwind(), alpinejs(), react(), mdx(), sitemap(), image(), partytown()]
+  integrations: [tailwind(), sitemap(), alpinejs(), react(), mdx(), sitemap(), image(), partytown()]
 });
