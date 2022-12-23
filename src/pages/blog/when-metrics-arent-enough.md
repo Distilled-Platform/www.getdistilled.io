@@ -3,6 +3,7 @@ title: "Going beyond the cacaphony of metrics: Why you need goals for effective 
 excerpt: "In this post, we'll explore why a goals-first approach to community and DevRel strategy is necessary for both community growth and communicating the effectiveness of community initiatives to leadership. We'll also provide practical advice on how to use community-focused OKR (Objectives and Key Results) tools to help you set and track your goals."
 publishDate: "2022-12-21T11:39:36.050Z"
 image: "https://images.pexels.com/photos/5097967/pexels-photo-5097967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+alt: "a base camp at the summit of a snowy mountain with a flag at top of a boulder"
 category: "Strategy"
 author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"

@@ -3,6 +3,7 @@ title: "Introducting Distilled: An OKR inspired strategy platform for DevRel and
 excerpt: "We are excited to announce the launch of Distilled, a new strategy platform that we hope will assist developer advocates and community managers with creating actionable strategy from the massive amounts of analytics they generate on a day to day basis."
 publishDate: "2022-12-08T10:00:36.050Z"
 image: "https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+alt: "space shuttle lifting off from a launchpad"
 category: "Announcements"
 author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"

@@ -4,11 +4,24 @@ import { getFormattedDate } from "@utils/all";
 import { log } from "astro/dist/core/logger/core";
 import Layout from "./Layout.astro";
 
+const Site = "https://www.getdistilled.io"
+
 const { frontmatter } = Astro.props;
 ---
 
+<meta property="og:title" content={frontmatter.title} />
+<meta property="og:type" content="article" />
+<meta property="og:url" content={frontmatter.slug} />
 <meta property="og:image" content={frontmatter.image} />
+<meta property="og:image:alt" content={frontmatter.alt} />
 <meta property="twitter:image" content={frontmatter.image} />
+<meta name="twitter:card" content={frontmatter.image} />
+<meta name="twitter:site" content="@getdistilled" />
+<meta name="twitter:title" content={frontmatter.title} />
+<meta name="twitter:description" content={frontmatter.excerpt} />
+<meta name="twitter:image" content={frontmatter.image} />
+<meta name="twitter:image:alt" content={frontmatter.alt} />
+
 
 <Layout title={frontmatter.title}>
   <Container>
