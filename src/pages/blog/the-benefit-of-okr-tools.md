@@ -7,6 +7,7 @@ category: "Strategy"
 author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"
 tags: [okrs, strategy, community]
+slug: the-benefit-of-okr-tools
 ---
 
 ![](https://media.wired.com/photos/6089a5680fb8afb8ea0ae817/191:100/w_2580,c_limit/Gear-Feature-Victorinox-Mini-Champ---credit-Victorinox.jpg)

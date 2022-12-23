@@ -7,6 +7,7 @@ category: "Strategy"
 author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"
 tags: [strategy, community, okrs]
+slug: whywedistill
 ---
 
 ![brewery](https://images.pexels.com/photos/159291/beer-machine-alcohol-brewery-159291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)

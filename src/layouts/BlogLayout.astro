@@ -7,6 +7,9 @@ import Layout from "./Layout.astro";
 const { frontmatter } = Astro.props;
 ---
 
+<meta property="og:image" content={frontmatter.image} />
+<meta property="twitter:image" content={frontmatter.image} />
+
 <Layout title={frontmatter.title}>
   <Container>
     <div class="mx-auto max-w-[735px] mt-14">

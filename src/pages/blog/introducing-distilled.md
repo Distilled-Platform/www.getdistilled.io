@@ -7,6 +7,7 @@ category: "Announcements"
 author: "James Bohrman"
 layout: "@layouts/BlogLayout.astro"
 tags: [announcement, distilled, community]
+slug: introducing-distilled
 ---
 
 ![](https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
