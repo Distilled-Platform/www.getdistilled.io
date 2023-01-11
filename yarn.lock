@@ -443,6 +443,11 @@
   "resolved" "https://registry.npmjs.org/@emmetio/scanner/-/scanner-1.0.0.tgz"
   "version" "1.0.0"
 
+"@fontsource/ibm-plex-sans@^4.5.13":
+  "integrity" "sha512-7oDAqvuIArnMJck/JBqCnQZwqL4za+5xG+1Gu4enYbGcGqmUPktiuOy1i0N3XrzrNO70ZvsSt1Rdkxr2oemE6Q=="
+  "resolved" "https://registry.npmjs.org/@fontsource/ibm-plex-sans/-/ibm-plex-sans-4.5.13.tgz"
+  "version" "4.5.13"
+
 "@fontsource/inter@^4.5.14":
   "integrity" "sha512-JDC9AocdPLuGsASkvWw9hS5gtHE7K9dOwL98XLrk5yjYqxy4uVnScG58NUvFMJDVJRl/7c8Wnap6PEs+7Zvj1Q=="
   "resolved" "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.14.tgz"

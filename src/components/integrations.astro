@@ -1,0 +1,74 @@
+---
+import heroImage from "assets/hero.png";
+import { Image } from "@astrojs/image/components";
+import Button from "@components/ui/button.astro";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon";
+
+
+const integrations = [
+  {
+    title: "Slack",
+    description:
+      "Set and track goals based on Slack workspace engagement and activity",
+    icon: "logos:slack-icon",
+  },
+  {
+    title: "Github (Coming Soon)",
+    description:
+      "Establish goals that track and update based on Github activity",
+    icon: "logos:github-icon",
+  },
+  {
+    title: "Twitter (Coming Soon)",
+    description:
+      "Implement goals for Twitter engagement that measure relevant activity",
+    icon: "logos:twitter",
+  },
+  {
+    title: "Zapier (Coming Soon)",
+    description:
+      "Connect over 2000+ services with our robust Zapier connection",
+    icon: "logos:zapier-icon",
+  },
+  {
+    title: "Google Analytics (Coming Soon)",
+    description:
+      "Set OKRs for blog performance and track progress with out Google analytics integration",
+    icon: "logos:google-analytics",
+  },
+  {
+    title: "YouTube (Coming Soon)",
+    description:
+      "Set and track goals for YouTube growth and engagement with our soon-to-drop integration",
+    icon: "logos:youtube-icon",
+  },
+  ];
+---
+
+
+<div class="mt-20 pt-20 md:mt-0">
+    <h2 class="text-center text-4xl lg:text-5xl font-bold lg:tracking-tight">
+        Connect to over 500+ data sources
+    </h2>
+    <p class="text-center text-lg mt-4 text-slate-600">
+      Leverage a robust suite of integrations to track your goals.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+    {
+      integrations.map((item) => (
+        <div class="flex gap-4 items-start">
+          <div class="mt-1 p-2 w-24 h-24">
+            <Icon class="text-white" name={item.icon} />
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+  
